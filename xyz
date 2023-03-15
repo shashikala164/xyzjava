@@ -1,7 +1,11 @@
-//save as Simple.java  
-package mypack;  
-public class Simple{  
- public static void main(String args[]){  
-    System.out.println("Welcome to package");  
-   }  
-}  
+import java.util.Scanner;
+
+class MyClass {
+  public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in);
+    System.out.println("Enter username");
+
+    String userName = myObj.nextLine();
+    System.out.println("Username is: " + userName);
+  }
+}
